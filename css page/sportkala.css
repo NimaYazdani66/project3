@@ -1,0 +1,357 @@
+
+@font-face {
+    font-family: "nimafont";
+    src:
+      local("nimafont"),
+      url("../nimafont/Yekan.ttf") format("opentype") tech(color-COLRv1),
+      url("../nimafont/Yekan.ttf") format("opentype"),
+      url("../nimafont/Yekan.ttf") format("woff");
+  }
+
+.header{
+    height: 150px;width: 100%;background-color: rgb(255, 255, 255); display: flex; position:fixed; top: 0px; right: 0px; left: 0px; border-radius: 10px; box-shadow: 0px 0px 15px silver;
+    z-index: 600000;
+}
+.logo{
+    height: 150px;width: 20%;border-radius: 10px;
+}
+.search{
+    height: 150px;width: 60%;background-color: rgb(255, 255, 255);border-radius: 10px;
+}
+.kharid{
+    height: 150px;width: 20%;background-color: rgb(255, 255, 255);border-radius: 10px;
+}
+.sport{
+    height: 150px;width: 150px; margin-right: 80px; margin-top: 1px; 
+}
+.input{
+    height: 40px;width: 300px; border-radius: 30px; padding-right: 20px;margin-top: 30px; margin-right: 10px;font-family: nimafont;outline: none; border-color: silver;
+}
+.input::placeholder{
+    color: silver;
+}
+.icon{
+    background-color: rgb(250, 250, 250);padding-top: 15px;position: relative;left: 35px; top: 9px; border-radius: 10px;
+}
+.vor{
+    position: relative;top: 1px;
+}
+.sab{
+    position: relative;top: 1px;
+}
+.login{
+    font-family: nimafont;border-radius: 50px;position: relative;top: 5px;border-style: none;
+}
+.login:hover{
+    background-color: silver;
+}
+.menu{
+    list-style: none; position: relative;left: 20px;top:10px;
+    display: flex; 
+}
+.asl{
+    color: teal; font-family: nimafont; margin: 10px; position: relative;bottom: 5px;
+}
+.asl:hover{
+    color: crimson;
+}
+.home{
+    position: relative;top: 3px;
+}
+.mahsol{
+    border-style: none;border-radius: 10px; font-family: nimafont; outline: none;margin: 10px; color: silver;
+}
+.mahsol:hover{
+    color: crimson;
+}
+.brand{
+    font-family: nimafont;margin: 10px; color: silver;
+}
+.brand:hover{
+    color: crimson;
+}
+.sabad{
+    background-color: rgb(33, 193, 62);padding-top: 12px; padding-left: 20px;padding-right: 20px;border-radius: 30px; position: relative;right: 150px;
+    bottom: 30px;
+}
+.buy{
+    position: relative;right: 9px;
+}
+.zero{
+    background-color: rgb(255, 255, 255);padding-left:3px; padding-right: 3px; border-radius: 50%; position: relative;font-family: nimafont;
+    position: relative;bottom:35px ; right: 90px; 
+}
+.text{
+    font-family: nimafont;color: lawngreen; position: relative;top: 15px;right:80px; font-size: large;
+}
+.text0{
+    text-decoration: none;
+}
+.menu1{
+    list-style: none; position: relative;left: 20px;top:3px;
+    display: flex; 
+              
+}
+.sh{
+    margin: 10px;
+}
+.images{
+    height:900px;width: 100%; background-color: rgb(255, 255, 255); position: relative;top: 160px; z-index: 50000;
+}
+.cros{
+    position: absolute;top: 50px;right: 80px; border-radius: 20px;
+}
+.tao{
+    position: absolute;top: 600px;right: 80px;
+}
+.rica{
+    position: absolute;top: 600px;right: 400px;
+}
+.pp{
+    position: absolute;top: 600px;right: 700px;
+}
+.set{
+    height: 150px;width: 100%;background-color: rgb(255, 255, 255); margin-top: 200px; display: flex;flex-direction: row;
+}
+.aks{
+    height: 100px;width: 100px;background-color: rgb(255, 255, 255); margin: 20px; position: relative;right:325px;border-style: groove;border-color: silver;
+}
+.aks:hover{background-color: blue;}
+.foot{
+    position: relative;top: 10px;right: 8px;
+}
+.ball{
+    font-family: nimafont; margin-right: 26px; position: relative;top: 5px; color: silver;
+} .ball:hover{
+    color: blue;
+}
+.ball1{
+    font-family: nimafont;  position: relative;top: 5px; left: 5px; color: silver; width: 500px;
+}
+.ball1:hover{
+    color: blue;
+}
+.ball2{
+    font-family: nimafont;  position: relative;top: 5px; right: 15px; color: silver; width: 500px;
+}
+.ball2:hover{
+    color: blue;
+}
+.men{
+    height:342px ;width: 1170px;background-image: url(../images/men.jpg);display: flex;
+}
+.m1{
+    height: 250px; width: 10%; background-color: rgb(255, 255, 255); position: relative; top: 75px; right: 350px;  border-left-style: groove;
+}
+.m2{
+    height: 250px; width: 20%; background-color: rgb(255, 255, 255); position: relative; top: 75px; right: 350px; border-left-style: groove;
+}
+.m3{
+    height: 250px; width: 10%; background-color: rgb(255, 255, 255); position: relative; top: 75px; right: 400px; border-left-style: groove;
+}
+.m4{
+    height: 250px; width: 15%; background-color: rgb(255, 255, 255); position: relative; top: 75px; right: 400px;
+}
+.da{
+    font-family: nimafont; margin-right: 20px; color: blue;
+}
+.list{
+    list-style: none; position: relative;left: 15px;bottom: 10px;
+}
+.aa{
+    text-decoration: none;color: darkgrey;font-family: nimafont; m
+}
+
+.list1{
+    list-style :none; position:relative;right:100px;:15px;bottom:195px;
+}
+
+.da1{
+    font-family: nimafont; position: relative;left: 30px; color: blue;
+}
+.cr7{
+    height: 450px;width: 100%;background-color:(247, 247, 247); margin-top: 20px;display: flex;
+}
+.cr{
+    height: 400px;width: 19%; background-color: blueviolet; border-radius: 20px; position: relative;top: 20px;right: 50px;
+}
+.ic{
+    height: 500px;width: 100%;
+}
+.suu{
+    position: relative;bottom: 525px;right: 20px;font-family: nimafont;font-size: x-large; width: 50%;color: aliceblue;
+}
+.vis{
+    height: 30px;width: 40%; position: relative;bottom: 550px; right: 100px;border-radius: 8px;border-color: aliceblue; outline: none;
+    font-family: nimafont; color: aliceblue;background-color: rgb(43, 43, 154);
+}
+.vis:hover{
+    background-color: aliceblue;color: black;
+}
+.compo{
+    height: 400px;width: 18%;background-color: rgb(255, 255, 255); position: relative;right:55px;top: 30px;  margin: 5px;
+}
+.compo1{
+    height: 400px;width: 18%;background-color: rgb(255, 255, 255);position: relative;right: 55px;top: 30px;margin: 5px;
+}
+.top{
+    height: 220px;width: 100%;
+}
+
+.takh{
+    background-color: rgb(41, 41, 162);font-family: nimafont;padding-left: 10px;padding-right: 10px;border-radius: 20px;color: aliceblue;
+    position: relative;bottom: 220px;right: 200px;
+}
+.color{
+    border-radius: 50%;border-style: none; position: relative; bottom: 220px;left: 50px;
+}
+
+.color1{
+    border-radius: 50%;border-style: none; position: relative; bottom: 200px;left:104px;
+}
+.color2{
+    border-radius: 50%;border-style: none; position: relative; bottom: 180px;left:158px;
+}
+.text00{
+    position: relative;bottom:40px;text-align: center;font-family: nimafont;color: gray;
+}
+.text000{
+    position: relative;bottom:47px;text-align: center;font-family: nimafont;color: gray;
+}
+.vote{
+    font-family: nimafont;text-align: center; position: relative;bottom: 80px;
+}
+.vote1{
+    font-family: nimafont;text-align: center; position: relative;bottom: 51px;
+}
+.vote2{
+    font-family: nimafont;text-align: center; position: relative;bottom: 45px;
+}
+.starr{
+    position: relative;top: 6px;
+}
+.tom{
+font-family: nimafont;position: relative;bottom: 50px; text-align: center;
+}
+.tom1{
+    font-family: nimafont;position: relative;bottom: 20px; text-align: center;
+    }
+    .tom2{
+        font-family: nimafont;position: relative;bottom: 14px; text-align: center;
+        } 
+        .you{
+            height: 500px;width: 100%;background-color: rgb(255, 0, 0); margin-top: 80px;display: flex;
+        }
+        .mini{
+            height: 400px;width: 18%;background-color: rgb(255, 255, 255); position: relative;top: 70px;  margin: 0px; left: 140px;box-shadow: 0px 0px 20px silver; 
+        }
+        .mini1{
+            height: 400px;width: 18%;background-color: rgb(255, 255, 255); position: relative;top: 70px;  margin: 0px; left: 140px; border-top-right-radius: 15px;box-shadow: 0px 0px 20px silver; 
+            border-bottom-right-radius: 15px;
+        }
+        .mini4{
+            height: 400px;width: 18%;background-color: rgb(255, 255, 255); position: relative;top: 70px;  margin: 0px; left: 140px; border-top-left-radius: 15px;box-shadow: 0px 0px 20px silver; 
+            border-bottom-left-radius: 15px;
+        }
+        .myn{
+            font-family: nimafont; color:aliceblue;font-size: xx-large; position: relative;right: 50px;bottom: 30px; width: 20%;
+        }
+        .band{
+            height: 200px;width: 100%;
+        }
+    
+        .vote12{
+            font-family: nimafont;text-align: center; position: relative;bottom: 5px;
+        }
+        .text001{
+            position: relative;bottom:10px;text-align: center;font-family: nimafont;color: gray;
+        }
+        .vote122{
+            font-family: nimafont;text-align: center; position: relative;top: 15px;
+        }
+        .tom22{
+            font-family: nimafont;position: relative;top: 30px; text-align: center;
+            }
+            .tom222{
+                font-family: nimafont;position: relative;top: 8px; text-align: center;
+                }
+                .tom2222{
+                    font-family: nimafont;position: relative;top: 30px; text-align: center;
+                    }
+                    .pic{
+                        height: 150px;width: 100%;background-color: rgb(255, 255, 255); display: flex;
+                    }
+                    .ll{
+                        font-family: nimafont;text-align: center; font-size: x-large; color: darkblue; position: relative; right:700px; bottom: 20px;
+                    }
+                    .vo{
+                        height: 80px;width: 80px;background-color: rgb(255, 255, 255); position: relative; top: 40px;right: 285px; margin: 15px;
+                    }
+                    .blue{
+                        height: 800px;width: 100%;background-color: darkblue; display: flex;flex-direction: row;
+                    }
+                    .red{
+                        height: 500px;width: 15%;background-color: rgb(0, 0, 140); margin: 20px;position: relative;top: 90px;left:70px ;
+                        border-bottom-style: groove;border-bottom-color: silver;
+                    }
+                    .jj{
+                        font-family: nimafont;font-size: x-large;color: aliceblue; position: relative;top: 10px;right: 30px;
+                    }
+                    .tra{
+                        height: 250px;width: 100%;border-radius: 15px;
+                    }
+                    .polin{
+                        font-family: nimafont; text-align: center;color: aliceblue;
+                    }
+                    .nema{
+                        height: 30px;width: 7%;position: relative;top:720px; left: 70px;font-family: nimafont;border-radius: 15px;
+                        border-style: none;color: rgb(0, 0, 0);
+                    }
+                    .on{
+                        text-align: center;font-family: nimafont;position: relative;bottom:10px ;color: aliceblue;
+                    }
+                    .tarikh{
+                        font-family: nimafont; font-size: smaller;position: relative;bottom: 5px; right: 15px;color: aliceblue;
+                    }
+                    .baz{
+                        font-family: nimafont;position: relative;right: 150px;bottom: 35px;font-size: small;color: aliceblue;
+                    }
+                    .clock{
+                        position: relative;left: 150px;top: 7px;
+                    }
+                    .clock1{
+                        position: relative;left: 120px;top: 7px;
+                    }
+                    .clock11{
+                        position: relative;left: 130px;top: 7px;
+                    }
+                    .clock112{
+                        position: relative;left: 140px;top: 7px;
+                    }
+                    .khat{
+                        position: relative;top: 22px;
+                    }
+
+                     .tarikh1{
+                        font-family: nimafont; font-size: smaller;position: relative;top: 20px; right: 15px;color: aliceblue;
+                    }
+                    .baz1{
+                        font-family: nimafont;position: relative;right: 150px;bottom: 10px;font-size: small;color: aliceblue;
+                    }
+                    .diff{
+                        height: 200px;width: 100%;background-color: rgb(255, 255, 255);display: flex;
+                    }
+                    .exp{
+                        height: 125px;width: 10%;background-color: rgb(255, 255, 255); position: relative;bottom: 10px; right: 100px; margin: 50px;
+                    }
+                    .ex{
+                        margin-right: 35px;
+                    }
+                    .new{
+                        font-family: nimafont; text-align: center;color:navy;
+                    }
+
+                    .new1{
+                        font-family: nimafont; text-align: center;color: navy;width: 110%; position: relative;left: 10px;
+                    }
+                   
